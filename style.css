@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image:url(background.jpg);
+}
+.contenitore{ 
+  width: 1000px;
+  margin-top: 100px;
+  margin-left: 500px;
+  padding:100px;
+  background-color: rgba(60, 60, 60, 0.7);
+  border-radius: 12px;
+}
+
+
+header > img{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+header > h1{
+  width: 500px;
+  color: rgb(0,255,0,1);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav{
+  width: 800px;
+  background-color: rgb(0,255,0,1);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 15px;
+}
+main{
+  color: rgb(255,255,255)
+}
+.mon-G, .mon-M, .mon-F{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+ .mon-G > span{
+  font-size: 25px;
+}
+.mon-M > span{
+ font-size: 25px;
+}
+.mon-F > span{
+ font-size: 25px;
+}
+
+.mon-G > hr{
+  height: 30px;
+  width: 250px;
+  background-color:rgb(255,159,63);
+  margin: 0;
+  border-radius: 8px;
+}
+.mon-M > hr{
+  height: 30px;
+  width: 400px;
+  background-color: rgb(0,255,0,1);
+  margin: 0;
+  border-radius: 8px;
+}
+.mon-F > hr{
+  height: 30px;
+  width: 150px;
+  background-color:rgb(255,68,0);
+  margin: 0;
+  border-radius: 8px;
+}
